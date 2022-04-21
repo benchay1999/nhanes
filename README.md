@@ -3,7 +3,7 @@
 
 This machine learning project aims to predict the probability of a paitent needing a dental care within 6 months given demographical data, lab test values, dietary data, examination data, and questionarre data.
 
-Run the following command to install requird packages:
+Run the following command to install required packages:
 
 ```
 pip install -r requirements.txt
