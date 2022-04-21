@@ -1,6 +1,13 @@
 # NHANES - Dental
 ### NHANES : need for dental care probability classification
 
+<p align="center">
+  <b>***This project is best compatible with Google Colab.***</b>
+</p>
+  
+
+
+
 This machine learning project aims to predict the probability of a paitent needing a dental care within 6 months given demographical data, lab test values, dietary data, examination data, and questionarre data.
 
 Run the following command to install required packages:
@@ -49,4 +56,4 @@ You can also download my preprocessed data in `nhanes_data/`
 
 Other files are for training FCNs on the dataset, which worked poorly in this highly-sparse data setting where categorical features(one-hot encoded) dominate numerical features.
 
-**This project is best compatible with Google Colab.
+
