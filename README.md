@@ -11,3 +11,10 @@ pip install -r requirements.txt
 
 The data for this project is NHANES dataset with years spanning 2009-2018.
 
+# Details
+XGBoost (`nhanes_xgboost.ipynb') worked best for the project, yielding approximately 0.99 in accuracy.
+
+To reproduce, you need the NHANES dataset (available in [https://www.cdc.gov/nchs/nhanes/index.htm], or dataset used for this project will be provided upon request)
+and `preprocessing_xgboost.ipynb` with `nhanes_xgboost.ipynb'.
+
+Other files are for DNN and logistic regression training on the dataset, which worked poorly in this highly-sparse data setting where categorical features dominate numerical features.
