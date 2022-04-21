@@ -17,4 +17,7 @@ XGBoost (`nhanes_xgboost.ipynb') worked best for the project, yielding approxima
 To reproduce, you need the NHANES dataset (unzip `nhanes_0918.zip`)
 and `preprocessing_xgboost.ipynb` with `nhanes_xgboost.ipynb'.
 
+You can also download my preprocessed data in `nhanes_data/`
+
+
 Other files are for DNN and logistic regression training on the dataset, which worked poorly in this highly-sparse data setting where categorical features dominate numerical features.
