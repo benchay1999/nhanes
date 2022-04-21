@@ -16,10 +16,11 @@ XGBoost (`nhanes_xgboost.ipynb`) worked best for the project, yielding approxima
 
 ## Model Deployment
 FCN : `nhanes.ipynb`
+
 XGBoost : `nhanes_xgboost.ipynb`
 
 To reproduce, you need the NHANES dataset (unzip `nhanes_data/nhanes_0918.zip`)
-and `preprocessing_xgboost.ipynb` with `nhanes_xgboost.ipynb`.
+and `preprocessing_xgboost.ipynb` together with `nhanes_xgboost.ipynb`.
 
 ## Data
 You can also download my preprocessed data in `nhanes_data/`
@@ -47,3 +48,5 @@ You can also download my preprocessed data in `nhanes_data/`
 # Miscellaneous
 
 Other files are for training FCNs on the dataset, which worked poorly in this highly-sparse data setting where categorical features(one-hot encoded) dominate numerical features.
+
+**This project is best compatible with Google Colab.
