@@ -12,10 +12,10 @@ pip install -r requirements.txt
 The data for this project is NHANES dataset with years spanning 2009-2018.
 
 # Details
-XGBoost (`nhanes_xgboost.ipynb') worked best for the project, yielding approximately 0.99 in accuracy.
+XGBoost (`nhanes_xgboost.ipynb`) worked best for the project, yielding approximately 0.99 in accuracy.
 
 To reproduce, you need the NHANES dataset (unzip `nhanes_0918.zip`)
-and `preprocessing_xgboost.ipynb` with `nhanes_xgboost.ipynb'.
+and `preprocessing_xgboost.ipynb` with `nhanes_xgboost.ipynb`.
 
 You can also download my preprocessed data in `nhanes_data/`
 
