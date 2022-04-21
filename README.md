@@ -14,9 +14,14 @@ The data for this project is the NHANES dataset with years spanning 2009-2018.
 # Details
 XGBoost (`nhanes_xgboost.ipynb`) worked best for the project, yielding approximately 0.99 in accuracy.
 
+## Model Deployment
+FCN : `nhanes.ipynb`
+XGBoost : `nhanes_xgboost.ipynb`
+
 To reproduce, you need the NHANES dataset (unzip `nhanes_data/nhanes_0918.zip`)
 and `preprocessing_xgboost.ipynb` with `nhanes_xgboost.ipynb`.
 
+## Data
 You can also download my preprocessed data in `nhanes_data/`
 
 `nhanes_data/data_label_encoded.dat` : label encoded version of preprocessed data (no NaNs)
