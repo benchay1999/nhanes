@@ -1,5 +1,5 @@
 # nhanes
-### nhanes dental clinic revisit probability classification
+### nhanes need for dental care probability classification
 
 This machine learning project aims to predict the probability of a paitent needing a dental care within 6 months given demographical data, lab test values, dietary data, examination data, and questionarre data.
 
