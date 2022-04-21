@@ -32,9 +32,9 @@ You can also download my preprocessed data in `nhanes_data/`
 
 `nhanes_data/final_df_xgboost_without_ohx.pkl` : pandas dataframe for xgboost (without the feature 'OHARNF') - contains NaNs
 
-`nhanes_data/final_df_xgboost_with_ohx_nan_preprocessed.pkl` : pandas dataframe for xgboost (with the feature 'OHARNF') - no NaNs
+`nhanes_data/final_df_xgboost_with_ohx_nan_preprocessed.pkl` : pandas dataframe for xgboost (with the feature 'OHARNF') - no NaNs * same with `final_df.pkl`
 
-`nhanes_data/final_df_xgboost_without_ohx_nan_preprocessed.pkl` : pandas dataframe for xgboost (without the feature 'OHARNF') -no NaNs
+`nhanes_data/final_df_xgboost_without_ohx_nan_preprocessed.pkl` : pandas dataframe for xgboost (without the feature 'OHARNF') -no NaNs * same with `final_df.pkl` with no 'OHARNF'
 
 
 
