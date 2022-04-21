@@ -3,3 +3,4 @@ oid sha256:8d798f11f9f88bdae9248a00476808d0be34be148408eb0969044b9e27efdfa1
 size 837
 *.pkl filter=lfs diff=lfs merge=lfs -text
 *.dat filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
