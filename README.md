@@ -8,7 +8,7 @@
 
 
 
-This machine learning project aims to predict the probability of a patient needing a dental care within 6 months given demographical data, lab test values, dietary data, examination data, and questionarre data.
+This machine learning project aims to predict the probability of a subject needing dental treatment within 6 months given demographical data, lab test values, dietary data, examination data, and questionarre data.
 
 Run the following command to install required packages:
 
