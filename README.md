@@ -9,7 +9,7 @@ Run the following command to install required packages:
 pip install -r requirements.txt
 ```
 
-The data for this project is NHANES dataset with years spanning 2009-2018.
+The data for this project is the NHANES dataset with years spanning 2009-2018.
 
 # Details
 XGBoost (`nhanes_xgboost.ipynb`) worked best for the project, yielding approximately 0.99 in accuracy.
