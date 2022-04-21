@@ -46,4 +46,4 @@ You can also download my preprocessed data in `nhanes_data/`
 
 # Miscellaneous
 
-Other files are for DNN and logistic regression training on the dataset, which worked poorly in this highly-sparse data setting where categorical features dominate numerical features.
+Other files are for training FCNs on the dataset, which worked poorly in this highly-sparse data setting where categorical features(one-hot encoded) dominate numerical features.
